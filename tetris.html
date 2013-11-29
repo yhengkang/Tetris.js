@@ -3,7 +3,9 @@
 		<script src="lib/jquery-1.9.1.js"></script>
 		<script src="lib/pieces/piece.js"></script>
 		<script src="lib/pieces/Lpiece.js"></script>
+
 		<script src="lib/display.js"></script>
+		<script src="lib/game.js"></script>
 
 		<link rel="stylesheet" type="text/css" href="tetris.css">
 	</head>
@@ -11,28 +13,13 @@
 	<body>
 
 		<div class="display">
-			<!-- <div class="row">
-				<div class="cell"></div>
-				<div class="cell"></div>
-				<div class="cell"></div>
-			</div>
-
-			<div class="row">
-				<div class="cell"></div>
-				<div class="cell"></div>
-				<div class="cell"></div>
-			</div>
-
-			<div class="row">
-				<div class="cell"></div>
-				<div class="cell"></div>
-				<div class="cell"></div>
-			</div> -->
 		</div>
 
 		<script>
 				var $el = $(".display");
-				var display = new Tetris.Display($el, 10, 10)
+				// var display = new Tetris.Display($el, 10, 10)
+				var game = new Tetris.Game($el, 10, 10);
+				game.run();
 		</script>
 
 	</body>
