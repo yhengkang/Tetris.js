@@ -2,11 +2,11 @@
 	float: left;
 	width: 50px;
 	height: 50px;
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 }
 
 .row {
-	height: 50px;
+	height: 52px;
 }
 
 .display {
