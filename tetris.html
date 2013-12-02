@@ -3,7 +3,12 @@
 		<script src="lib/jquery-1.9.1.js"></script>
 		<script src="lib/pieces/piece.js"></script>
 		<script src="lib/pieces/Lpiece.js"></script>
+		<script src="lib/pieces/InvLpiece.js"></script>
 		<script src="lib/pieces/Zpiece.js"></script>
+		<script src="lib/pieces/InvZpiece.js"></script>
+		<script src="lib/pieces/Ipiece.js"></script>
+		<script src="lib/pieces/Bpiece.js"></script>
+		<script src="lib/pieces/Tpiece.js"></script>
 
 		<script src="lib/display.js"></script>
 		<script src="lib/game.js"></script>
@@ -18,8 +23,7 @@
 
 		<script>
 				var $el = $(".display");
-				// var display = new Tetris.Display($el, 10, 10)
-				var game = new Tetris.Game($el, 10, 10);
+				var game = new Tetris.Game($el, 12, 20);
 				game.newCurrPiece();
 				game.run();
 		</script>
