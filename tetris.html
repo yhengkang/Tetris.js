@@ -21,9 +21,14 @@
 		<div class="display">
 		</div>
 
+		<div class="score-display">
+			<a class="score">Score: 0</a>
+		</div>
+
 		<script>
-				var $el = $(".display");
+				var $el = $("body");
 				var game = new Tetris.Game($el, 12, 20);
+				// var game = new Tetris.Game($el, 20, 25);
 				game.newCurrPiece();
 				game.run();
 		</script>

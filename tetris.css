@@ -19,6 +19,14 @@
 	background-color: blue;
 }
 
+.score-display {
+	clear: both;
+}
+
+.score {
+	font: 16px/18px sans-serif;
+}
+
 
 /*Piece Colors */
 .Aqua {
